@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.roudier.instrumented-lambda</groupId>
-    <artifactId>instrumented-lambda</artifactId>
+    <groupId>com.pierreroudier</groupId>
+    <artifactId>lambda_execution_context_reuse</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>instrumented-lambda</name>
+    <name>lambda_execution_context_reuse</name>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,8 +20,6 @@
         <aws-lambda-java-events.version>2.1.0</aws-lambda-java-events.version>
         <aws-java-sdk.version>1.11.301</aws-java-sdk.version>
         <maven-shade-plugin.version>3.1.0</maven-shade-plugin.version>
-        <commons-beanutils.version>1.9.3</commons-beanutils.version>
-        <jackson.version>2.9.5</jackson.version>
     </properties>
 
     <dependencies>
@@ -60,14 +58,6 @@
             <artifactId>aws-java-sdk-s3</artifactId>
             <version>${aws-java-sdk.version}</version>
         </dependency>
-
-        <!-- MISC -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-
     </dependencies>
 
     <build>
