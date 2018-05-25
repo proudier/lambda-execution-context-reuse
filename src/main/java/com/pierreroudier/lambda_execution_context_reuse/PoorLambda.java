@@ -1,4 +1,4 @@
-package io.roudier.lambda_execution_context_reuse;
+package com.pierreroudier.lambda_execution_context_reuse;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
@@ -8,6 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public class PoorLambda implements RequestHandler<S3Event, String> {
     private static Logger logger = LogManager.getLogger(PoorLambda.class);
+
     @Override
     public String handleRequest(S3Event event, Context context) {
         event.getRecords().forEach((s3EventNotificationRecord) -> {

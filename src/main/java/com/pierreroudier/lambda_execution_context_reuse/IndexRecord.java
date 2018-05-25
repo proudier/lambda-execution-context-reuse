@@ -1,4 +1,4 @@
-package io.roudier.lambda_execution_context_reuse;
+package com.pierreroudier.lambda_execution_context_reuse;
 
 /**
  * Model for an index entry

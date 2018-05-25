@@ -1,4 +1,4 @@
-package io.roudier.lambda_execution_context_reuse;
+package com.pierreroudier.lambda_execution_context_reuse;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

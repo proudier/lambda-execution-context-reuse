@@ -1,4 +1,4 @@
-package io.roudier.lambda_execution_context_reuse;
+package com.pierreroudier.lambda_execution_context_reuse;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;

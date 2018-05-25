@@ -1,4 +1,4 @@
-package io.roudier.lambda_execution_context_reuse;
+package com.pierreroudier.lambda_execution_context_reuse;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
@@ -11,13 +11,6 @@ public class BetterLambda implements RequestHandler<S3Event, String> {
     private static Logger logger = LogManager.getLogger(BetterLambda.class);
     private Index index;
     private Logic logic;
-
-    /*
-    public BetterLambda() throws InterruptedException {
-        Index index = new BetterIndexImpl();
-        Logic logic = new Logic(index);
-    }
-    */
 
     @Override
     public String handleRequest(S3Event event, Context context) {
