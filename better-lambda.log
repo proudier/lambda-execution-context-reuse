@@ -1,0 +1,22 @@
+START RequestId: d6627ad6-5ffe-11e8-9778-1545f62ef8fd Version: $LATEST
+d6627ad6-5ffe-11e8-9778-1545f62ef8fd BetterLambda:26 - Processing event s3EventNotificationRecord
+d6627ad6-5ffe-11e8-9778-1545f62ef8fd BetterIndexImpl:11 - Constructing index client
+d6627ad6-5ffe-11e8-9778-1545f62ef8fd BetterIndexImpl:12 - Connecting to index (set up pool of connections)
+d6627ad6-5ffe-11e8-9778-1545f62ef8fd BetterIndexImpl:19 - Upload data
+END RequestId: d6627ad6-5ffe-11e8-9778-1545f62ef8fd
+REPORT RequestId: d6627ad6-5ffe-11e8-9778-1545f62ef8fd	Duration: 720.27 ms	Billed Duration: 800 ms Memory Size: 512 MB	Max Memory Used: 65 MB
+START RequestId: d97f243f-5ffe-11e8-899b-01a504cfb57e Version: $LATEST
+d97f243f-5ffe-11e8-899b-01a504cfb57e BetterLambda:26 - Processing event s3EventNotificationRecord
+d97f243f-5ffe-11e8-899b-01a504cfb57e BetterIndexImpl:19 - Upload data
+END RequestId: d97f243f-5ffe-11e8-899b-01a504cfb57e
+REPORT RequestId: d97f243f-5ffe-11e8-899b-01a504cfb57e	Duration: 90.07 ms	Billed Duration: 100 ms Memory Size: 512 MB	Max Memory Used: 65 MB
+START RequestId: db25f600-5ffe-11e8-8493-bf5a7de8abea Version: $LATEST
+db25f600-5ffe-11e8-8493-bf5a7de8abea BetterLambda:26 - Processing event s3EventNotificationRecord
+db25f600-5ffe-11e8-8493-bf5a7de8abea BetterIndexImpl:19 - Upload data
+END RequestId: db25f600-5ffe-11e8-8493-bf5a7de8abea
+REPORT RequestId: db25f600-5ffe-11e8-8493-bf5a7de8abea	Duration: 98.67 ms	Billed Duration: 100 ms Memory Size: 512 MB	Max Memory Used: 66 MB
+START RequestId: dcb08d6b-5ffe-11e8-a8ba-f7a23a494eeb Version: $LATEST
+dcb08d6b-5ffe-11e8-a8ba-f7a23a494eeb BetterLambda:26 - Processing event s3EventNotificationRecord
+dcb08d6b-5ffe-11e8-a8ba-f7a23a494eeb BetterIndexImpl:19 - Upload data
+END RequestId: dcb08d6b-5ffe-11e8-a8ba-f7a23a494eeb
+REPORT RequestId: dcb08d6b-5ffe-11e8-a8ba-f7a23a494eeb	Duration: 109.85 ms	Billed Duration: 200 ms Memory Size: 512 MB	Max Memory Used: 66 MB

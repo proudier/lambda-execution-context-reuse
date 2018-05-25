@@ -1,0 +1,28 @@
+START RequestId: ce351f86-5ffe-11e8-8b0f-938de3550c34 Version: $LATEST
+ce351f86-5ffe-11e8-8b0f-938de3550c34 PoorLambda:15 - Processing event s3EventNotificationRecord
+ce351f86-5ffe-11e8-8b0f-938de3550c34 PoorIndexImpl:13 - Constructing index client
+ce351f86-5ffe-11e8-8b0f-938de3550c34 PoorIndexImpl:18 - Connecting to index
+ce351f86-5ffe-11e8-8b0f-938de3550c34 PoorIndexImpl:21 - Upload data
+END RequestId: ce351f86-5ffe-11e8-8b0f-938de3550c34
+REPORT RequestId: ce351f86-5ffe-11e8-8b0f-938de3550c34	Duration: 716.14 ms	Billed Duration: 800 ms Memory Size: 512 MB	Max Memory Used: 81 MB
+START RequestId: d1d55168-5ffe-11e8-8389-ddbbdaed914d Version: $LATEST
+d1d55168-5ffe-11e8-8389-ddbbdaed914d PoorLambda:15 - Processing event s3EventNotificationRecord
+d1d55168-5ffe-11e8-8389-ddbbdaed914d PoorIndexImpl:13 - Constructing index client
+d1d55168-5ffe-11e8-8389-ddbbdaed914d PoorIndexImpl:18 - Connecting to index
+d1d55168-5ffe-11e8-8389-ddbbdaed914d PoorIndexImpl:21 - Upload data
+END RequestId: d1d55168-5ffe-11e8-8389-ddbbdaed914d
+REPORT RequestId: d1d55168-5ffe-11e8-8389-ddbbdaed914d	Duration: 188.90 ms	Billed Duration: 200 ms Memory Size: 512 MB	Max Memory Used: 82 MB
+START RequestId: d370ff50-5ffe-11e8-bf54-d15f7bcaeb07 Version: $LATEST
+d370ff50-5ffe-11e8-bf54-d15f7bcaeb07 PoorLambda:15 - Processing event s3EventNotificationRecord
+d370ff50-5ffe-11e8-bf54-d15f7bcaeb07 PoorIndexImpl:13 - Constructing index client
+d370ff50-5ffe-11e8-bf54-d15f7bcaeb07 PoorIndexImpl:18 - Connecting to index
+d370ff50-5ffe-11e8-bf54-d15f7bcaeb07 PoorIndexImpl:21 - Upload data
+END RequestId: d370ff50-5ffe-11e8-bf54-d15f7bcaeb07
+REPORT RequestId: d370ff50-5ffe-11e8-bf54-d15f7bcaeb07	Duration: 182.86 ms	Billed Duration: 200 ms Memory Size: 512 MB	Max Memory Used: 82 MB
+START RequestId: d4f15dd0-5ffe-11e8-afc4-574f7df5d539 Version: $LATEST
+d4f15dd0-5ffe-11e8-afc4-574f7df5d539 PoorLambda:15 - Processing event s3EventNotificationRecord
+d4f15dd0-5ffe-11e8-afc4-574f7df5d539 PoorIndexImpl:13 - Constructing index client
+d4f15dd0-5ffe-11e8-afc4-574f7df5d539 PoorIndexImpl:18 - Connecting to index
+d4f15dd0-5ffe-11e8-afc4-574f7df5d539 PoorIndexImpl:21 - Upload data
+END RequestId: d4f15dd0-5ffe-11e8-afc4-574f7df5d539
+REPORT RequestId: d4f15dd0-5ffe-11e8-afc4-574f7df5d539	Duration: 177.96 ms	Billed Duration: 200 ms Memory Size: 512 MB	Max Memory Used: 82 MB
